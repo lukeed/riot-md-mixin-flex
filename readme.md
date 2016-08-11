@@ -15,7 +15,7 @@ $ npm install --save riot-md-mixin-flex
 For use with other [riot-md](https://github.com/search?q=user%3Alukeed+riot-md) components, this mixin must be named `'flex'`. See [`riot.mixin`](http://riotjs.com/guide/#mixins) for more information.
 
 ```js
-const riot = requite('riot');
+const riot = require('riot');
 const flex = require('riot-md-mixin-flex');
 
 riot.mixin('flex', flex);
