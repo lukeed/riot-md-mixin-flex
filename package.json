@@ -1,0 +1,34 @@
+{
+  "name": "riot-md-mixin-flex",
+  "version": "0.0.0",
+  "description": "A flexbox attribute mixin for Riot.js components.",
+  "license": "MIT",
+  "repository": "lukeed/riot-md-mixin-flex",
+  "author": {
+    "name": "Luke Edwards",
+    "email": "luke@lukeed.com",
+    "url": "lukeed.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "riot",
+    "riot-js",
+    "riot-md",
+    "riot-mixin",
+    "layout",
+    "mixin",
+    "flex"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "xo": "^0.15.0"
+  }
+}
