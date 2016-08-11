@@ -26,6 +26,9 @@ riot.mixin('flex', flex);
 ```html
 <md-toolbar -dflex -flex />
 <!-- //=> <div class="md-toolbar" dflex flex></div> -->
+
+<my-component -flex="2" />
+<!-- //=> <div flex="2"></div> -->
 ```
 
 See [md-flex-layout](https://github.com/lukeed/md-flex-layout) to make use of these new attributes.
@@ -36,8 +39,10 @@ See [md-flex-layout](https://github.com/lukeed/md-flex-layout) to make use of th
 #### -dflex
 Appends a `dflex` attribute to the tag's `firstElementChild`.
 
-#### -flex
+#### -flex [int]
 Appends a `flex` attribute to the tag's `firstElementChild`.
+
+Passing a value to `-flex` will be forwarded to the tag child's attribute.
 
 #### -flexrow
 Appends a `flexrow` attribute to the tag's `firstElementChild`.
