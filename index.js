@@ -8,7 +8,7 @@ module.exports = {
 
 		self.on('mount', function () {
 			var el = self.root.firstElementChild;
-			['flex', 'dflex', 'flexrow'].forEach(function (attr) {
+			['flex', 'dflex', 'flexrow', 'acenter', 'jcenter'].forEach(function (attr) {
 				(capitalize(attr) in self.opts) && el.setAttribute(attr, self.opts[attr] || '');
 			});
 		});

@@ -47,6 +47,12 @@ Passing a value to `-flex` will be forwarded to the tag child's attribute.
 #### -flexrow
 Appends a `flexrow` attribute to the tag's `firstElementChild`.
 
+#### -acenter
+Appends an `acenter` attribute to the tag's `firstElementChild`.
+
+#### -jcenter
+Appends a `jcenter` attribute to the tag's `firstElementChild`.
+
 ## License
 
 MIT © [Luke Edwards](https://lukeed.com)
